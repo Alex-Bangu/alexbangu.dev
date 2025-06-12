@@ -1,4 +1,8 @@
-
+header {
+	background-color: #FCA1A1;
+	color: #00809D;
+	border-radius: 10px;
+}
 
 body {
 	width: 98%;
@@ -11,13 +15,48 @@ body {
 
 h1 { 
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-	font-size: 24px; 
+	font-size: 28px; 
 	font-style: normal; 
 	font-variant: normal; 
 	font-weight: 700; 
 	line-height: 26.4px; 
 	display: inline-block;
 } 
+.subheader {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 20px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 26.4px; 
+	display: inline-block;
+	margin: auto;
+	justify-content: center;
+}
+
+.spotlight .subheader {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 20px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 26.4px; 
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.header {
+	ont-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 22px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 26.4px; 
+	display: block;
+	margin: auto;
+	padding: 10px;
+}
 
 h2 { 
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
@@ -44,15 +83,15 @@ p {
  	font-size: 14px; 
  	font-style: normal; 
  	font-variant: normal; 
- 	font-weight: 400; 
+ 	font-weight: 500; 
  	line-height: 20px; 
  } 
 
  hr {
  	border: 0;
- 	height: 2px;
- 	background-color: #FF7601;
- 	color: #FF7601;
+ 	height: 4px;
+ 	background-color: #FB8888;
+ 	border-radius: 10px;
  }
 
  .pokemon {
@@ -73,8 +112,9 @@ p {
 }
 
 .navbar {
-  background-color: #F3A26D;
+  background-color: #FB8888;
   padding: 10px 20px;
+  border-radius: 10px;
 }
 
 .navbar ul {
@@ -102,4 +142,49 @@ p {
 
 .navbar a:hover {
   color: #FF7601;
+}
+
+.spotlight{
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #FCA1A1;
+	border-radius: 10px;
+}
+
+.spotlight img{
+	justify-content: center;
+	height: 50vh;
+	width: auto;
+	border-radius: 10px;
+	margin: auto;
+	display: block;
+}
+
+section {
+	justify-content: center;
+	display: block;
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+}
+
+.sub-item{
+	width: 29.8%;
+	background-color: #FCA1A1;
+	border-radius: 10px;
+	display: inline-block;
+	justify-content: center;
+	margin: 10px;
+	padding: 15px;
+}
+
+.sub-item img{
+	justify-content: center;
+	height: 30vh;
+	width: auto;
+	border-radius: 10px;
+	margin: auto;
+	display: block;
 }
