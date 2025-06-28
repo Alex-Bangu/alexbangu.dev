@@ -211,7 +211,7 @@ section {
 }
 
 .about-me-content img {
-	max-width: 30%;
+	max-width: 33%;
 	height: auto;
 	border-radius: 10px;
 	display: block;
@@ -232,4 +232,15 @@ section {
 	padding: 20px;
 	margin-top: 40px;
 	width: 98%;
+}
+
+.LinkedIn-link {
+	color: #FA7070;
+	text-decoration: none;
+	font-weight: bold;
+	transition: color 0.3s;
+}
+
+.LinkedIn-link:hover {
+	color: #e03f3f;
 }
